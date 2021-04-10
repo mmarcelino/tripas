@@ -8,14 +8,14 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1em 1%;
+  padding: 1rem 1%;
   margin-bottom: 0;
   font-family: $text;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1rem;
   transition: background 250ms ease-in;
   a {
-    letter-spacing: 0.15em;
+    letter-spacing: 0.15rem;
     &:hover {
       text-decoration: none;
       opacity: 0.5;
@@ -41,7 +41,7 @@ header {
 }
 
 .nav-logo img {
-  height: 2em;
+  height: 2rem;
   position: relative;
   bottom: -5px;
 }
@@ -68,7 +68,7 @@ header {
   background: white;
   a {
     color: black;
-    font-size: .8em;
+    font-size: .8rem;
   }
   box-shadow: 0 3px 20px rgba(black, 0.2);
   .nav-button a {

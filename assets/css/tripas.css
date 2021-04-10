@@ -13,9 +13,9 @@
      Mixins & Extends
 -------------------------------------------------------- */
 #why-section h2, #apartments-preview-section h2, #reviews-section h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   font-family: Montserrat, sans-serif; }
 
 /*--------------------------------------------------------
@@ -31,9 +31,9 @@
      Mixins & Extends
 -------------------------------------------------------- */
 #why-section h2, #apartments-preview-section h2, #reviews-section h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   font-family: Montserrat, sans-serif; }
 
 @media screen and (max-width: 768px) {
@@ -52,9 +52,9 @@
      Mixins & Extends
 -------------------------------------------------------- */
 #why-section h2, #apartments-preview-section h2, #reviews-section h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   font-family: Montserrat, sans-serif; }
 
 /* --------------------------------------------------------
@@ -95,8 +95,8 @@
     background: #0094C9;
     border: 2px solid #0094C9;
     color: white;
-    padding: 1em 1.25em;
-    border-radius: 2em;
+    padding: 1em 1.25rem;
+    border-radius: 2rem;
     font-weight: bold;
     display: inline-block;
     transition: 0.2s ease;
@@ -117,7 +117,7 @@
     box-shadow: 0px 1px 4px lightgray;
     margin-bottom: 20px; }
   .reasons-staying h3 {
-    font-size: 1.5em; }
+    font-size: 1.5rem; }
 
 /* --------------------------------------------------------
      Apartments Preview Section
@@ -125,7 +125,7 @@
 #apartments-preview-section {
   display: flex;
   background: #f9f9f9;
-  height: 35em; }
+  height: 35rem; }
 
 .carousel {
   min-width: 60%; }
@@ -139,18 +139,18 @@
   min-width: 40%;
   display: flex;
   align-items: center;
-  padding: 0 5.3em; }
+  padding: 0 5.3rem; }
   .apartment-preview-info a {
     background: #0094C9;
     border: 2px solid #0094C9;
     color: white;
-    padding: 1em 1.25em;
-    border-radius: 2em;
+    padding: 1em 1.25rem;
+    border-radius: 2rem;
     font-weight: bold;
     display: inline-block;
     transition: 0.2s ease;
     font-family: Montserrat, sans-serif;
-    margin-top: 2.5em; }
+    margin-top: 2.5rem; }
     .apartment-preview-info a:hover {
       opacity: 0.5;
       text-decoration: none;
@@ -160,7 +160,7 @@
      Review Section
 -------------------------------------------------------- */
 #reviews-section {
-  padding-top: 5.3em; }
+  padding-top: 5.3rem; }
 
 #wprev-slider-1 .wprev_preview_tcolor3_T4 {
   font-size: 12px; }
@@ -185,9 +185,9 @@
      Mixins & Extends
 -------------------------------------------------------- */
 #why-section h2, #apartments-preview-section h2, #reviews-section h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   font-family: Montserrat, sans-serif; }
 
 /*--------------------------------------------------------
@@ -203,9 +203,9 @@
      Mixins & Extends
 -------------------------------------------------------- */
 #why-section h2, #apartments-preview-section h2, #reviews-section h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   font-family: Montserrat, sans-serif; }
 
 /*--------------------------------------------------------
@@ -221,9 +221,9 @@
      Mixins & Extends
 -------------------------------------------------------- */
 #why-section h2, #apartments-preview-section h2, #reviews-section h2 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   font-family: Montserrat, sans-serif; }
 
 /* --------------------------------------------------------
@@ -233,14 +233,14 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1em 1%;
+  padding: 1rem 1%;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1rem;
   transition: background 250ms ease-in; }
   header a {
-    letter-spacing: 0.15em; }
+    letter-spacing: 0.15rem; }
     header a:hover {
       text-decoration: none;
       opacity: 0.5; }
@@ -259,7 +259,7 @@ header {
   bottom: -5px; }
 
 .nav-logo img {
-  height: 2em;
+  height: 2rem;
   position: relative;
   bottom: -5px; }
 
@@ -280,8 +280,8 @@ header {
     background: transparent;
     border: 2px solid white;
     color: white;
-    padding: 1em 1.25em;
-    border-radius: 2em;
+    padding: 1em 1.25rem;
+    border-radius: 2rem;
     font-weight: bold;
     display: inline-block;
     transition: 0.2s ease;
@@ -296,13 +296,13 @@ header {
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2); }
   #home-navbar.nav-scrolled a {
     color: black;
-    font-size: .8em; }
+    font-size: .8rem; }
   #home-navbar.nav-scrolled .nav-button a {
     background: #0094C9;
     border: 2px solid #0094C9;
     color: white;
-    padding: 1em 1.25em;
-    border-radius: 2em;
+    padding: 1em 1.25rem;
+    border-radius: 2rem;
     font-weight: bold;
     display: inline-block;
     transition: 0.2s ease;
@@ -323,8 +323,8 @@ header {
     background: transparent;
     border: 2px solid black;
     color: black;
-    padding: 1em 1.25em;
-    border-radius: 2em;
+    padding: 1em 1.25rem;
+    border-radius: 2rem;
     font-weight: bold;
     display: inline-block;
     transition: 0.2s ease;
@@ -338,10 +338,10 @@ header {
 
 footer {
   background: black;
-  padding: 3.75em 0;
+  padding: 3.75rem 0;
   color: white; }
   footer h4 {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold; }
 
 /* --------------------------------------------------------
@@ -372,11 +372,11 @@ a:visited, a:active {
   text-decoration: none; }
 
 .wide-container {
-  width: 1320px;
+  width: 83rem;
   margin: 0 auto; }
 
 .narrow-container {
-  width: 1110px;
+  width: 69rem;
   margin: 0 auto; }
 
 /*# sourceMappingURL=tripas.css.map */
