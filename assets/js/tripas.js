@@ -14,7 +14,7 @@ const header = document.querySelector("header");
 const bannerSection = document.querySelector(".banner");
 
 const bannerSectionOptions = {
-     rootMargin: "-200px 0px 0px 0px"
+     rootMargin: "-100px 0px 0px 0px"
 };
 
 const bannerSectionObserver = new IntersectionObserver(function(
