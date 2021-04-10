@@ -1,0 +1,58 @@
+/*--------------------------------------------------------
+     Colors
+-------------------------------------------------------- */
+
+$red: #0094C9;
+$gray: #4b4b4b;
+
+$our_red: #ef4400;
+
+/* --------------------------------------------------------
+     Font-families
+-------------------------------------------------------- */
+
+$text: Montserrat, sans-serif;
+$header: Montserrat, sans-serif;
+
+/* --------------------------------------------------------
+     Font-size
+-------------------------------------------------------- */
+
+$h1: 4.5em;
+$h2: 3em;
+$h3: 1.5em;
+
+/* --------------------------------------------------------
+     Mixins & Extends
+-------------------------------------------------------- */
+
+%sub_title {
+  font-size: $h2;
+  font-weight: bold;
+  margin-bottom: 2em;
+  font-family: $header;
+}
+
+@mixin navbar_colors($navbar_background_color, $navbar_links_color) {
+  background: $navbar_background_color;
+  a {
+    color: $navbar_links_color;
+  }
+}
+
+@mixin buttons($button_background_color, $button_border_color, $button_text_color) {
+  background: $button_background_color;
+  border: 2px solid $button_border_color;
+  color: $button_text_color;
+  padding: 1em 1.25em;
+  border-radius: 2em;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.2s ease;
+  font-family: $header;
+  &:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+}

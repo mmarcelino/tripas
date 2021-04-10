@@ -1,0 +1,123 @@
+@import "definitions";
+
+/* --------------------------------------------------------
+     Banner
+-------------------------------------------------------- */
+
+.banner {
+  background: url(https://source.unsplash.com/random) no-repeat center;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: $header;
+  background-size: cover;
+  & div {
+    text-align: center;
+    animation: fadeInUp;
+    animation-duration: 1.5s;
+  }
+  & h1 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 3px lightgray;
+    color: white;
+  }
+  & h2 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 3px lightgray;
+    color: white;
+  }
+}
+
+/* --------------------------------------------------------
+     Why section
+-------------------------------------------------------- */
+
+#why-section {
+  padding: 210px 0 130px 0;
+  h2 {
+    @extend %sub_title;
+  }
+  a {
+    @include buttons($red, $red, white);
+    margin-top: 40px;
+  }
+}
+
+.reasons-staying {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px lightgray;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: $h3;
+  }
+}
+
+/* --------------------------------------------------------
+     Apartments Preview Section
+-------------------------------------------------------- */
+
+#apartments-preview-section {
+  display: flex;
+  background: #f9f9f9;
+  height: 35em;
+  h2 {
+    @extend %sub_title;
+  }
+}
+
+.carousel {
+  min-width: 60%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.apartment-preview-info {
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 0 5.3em;
+  a {
+    @include buttons($red, $red, white);
+    margin-top: 2.5em;
+  }
+}
+
+/* --------------------------------------------------------
+     Review Section
+-------------------------------------------------------- */
+
+#reviews-section {
+  padding-top: 5.3em;
+  h2 {
+    @extend %sub_title;
+  }
+}
+
+#wprev-slider-1 .wprev_preview_tcolor3_T4 {
+  font-size: 12px;
+}
+
+#wprev-slider-1 .wprs_rd_more, .wprs_rd_less {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#wprev-slider-1 .wprev_preview_bg1_T4 {
+  background: red;
+}

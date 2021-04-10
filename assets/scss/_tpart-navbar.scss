@@ -1,0 +1,91 @@
+@import "definitions";
+
+/* --------------------------------------------------------
+     General
+-------------------------------------------------------- */
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1em 1%;
+  margin-bottom: 0;
+  font-family: $text;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background 250ms ease-in;
+  a {
+    letter-spacing: 0.15em;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.5;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    li {
+      display: inline;
+      padding: 0px 40px;
+      &:first-of-type {
+        float: left;
+      }
+    }
+  }
+}
+
+.menu-image-title, .nav-logo {
+  position: relative;
+  bottom: -5px;
+}
+
+.nav-logo img {
+  height: 2em;
+  position: relative;
+  bottom: -5px;
+}
+
+.menu {
+  margin-bottom: 0;
+}
+
+/* --------------------------------------------------------
+     Home page navbar
+-------------------------------------------------------- */
+
+#home-navbar {
+  @include navbar_colors(transparent, white);
+  z-index: 4;
+  animation: fadeInDown;
+  animation-duration: 1.5s;
+  .nav-button a {
+    @include buttons(transparent, white, white);
+  }
+}
+
+#home-navbar.nav-scrolled {
+  background: white;
+  a {
+    color: black;
+    font-size: .8em;
+  }
+  box-shadow: 0 3px 20px rgba(black, 0.2);
+  .nav-button a {
+    @include buttons($red, $red, white);
+  }
+}
+
+/* --------------------------------------------------------
+     Other pages navbar
+-------------------------------------------------------- */
+
+#other-pages-navbar {
+  @include navbar_colors(white, black);
+  .nav-button a {
+    @include buttons(transparent, black, black);
+  }
+  .current_page_item a {
+    color: $red;
+  }
+}
